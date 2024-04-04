@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+/* h1{
+    
+    text-align: center;
+    
+}
+.card{
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #5f9ea0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .card1{
+   margin-top: 22px;
+   background-color: aqua;
+  
+}
+
+.card1 li{
+    border-radius: 5px;
+    list-style: none;
+    background-color: blue;
+    margin: 10px 0px;
+
+}
+.card1 li div{
+    display: flex;
+    justify-content: space-between;
+}
+.delete-btn{
+    background-color: rgb(217, 22, 22);
+    border: none;
+    outline: none;
+    color: white;
+    margin-left: 10px;
+}
+.inp{
+    padding: 6px 10px;
+    width: 70%;
+}
+.add-btn{
+    background-color: green;
+    border: none;
+    padding: 8px 10px;
+}  */
+
+body{
+  background-repeat: no-repeat;
+   background-size: cover;
+  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/649/200/desktop-wallpaper-purple-and-white-watercolor-texture-backgrounds-purple-watercolor-thumbnail.jpg");
+}
+h1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+    text-align: center;
+}
+
+.card{
+    border: 2px solid rgb(176, 143, 181);
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 0px px;
+    /* background-color: rgb(107, 95, 78); */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQvT9AbNg7CI_18mSgK7QGIl_TtHoZ7X4_hJXggrwgry9wwPAHnYrJQGLay2yk95yB6GE&usqp=CAU");
+    background-size: cover;
+}
+.input{
+  margin-left: 12%;
+}
+#inp{
+    padding: 10px 8px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 8px;
+    width: 70%;
+}
+.add-btn{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(29, 97, 234);
+    color: white;
+}
+.list{
+list-style: none;
+display: flex;
+}
+.list p{
+    /* border: 1px solid black; */
+    background-color:#f5ecf6 ;
+    width: 70%;
+    padding:10px 8px ;
+    border-radius: 8px;
+    margin-left: 22px;
+    color: rgb(70, 62, 62);
+}
+.delete-btn{
+    padding: 0 15px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(29, 97, 234);
+    color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.todolist li{
+   margin-bottom: -15px;
+}
